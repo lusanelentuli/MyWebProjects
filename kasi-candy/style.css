@@ -1,0 +1,181 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header h1, h2, h3, .product-card h4 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #ff5fa2, #ff9acb);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+/* NAVBAR */
+nav {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #ff5fa2;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff8cc6;
+  border-bottom: 3px solid #ff8cc6;
+  padding-bottom: 5px;
+}
+
+/* MAIN SECTIONS */
+section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #ff5fa2;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #ff7bbf;
+  margin-top: 30px;
+}
+
+/* LISTS */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: linear-gradient(135deg, #fff0f8, #fffbe6);
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* BUTTONS */
+button {
+  background: linear-gradient(135deg, #ff5fa2, #ff8cc6);
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255,95,162,0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(255,95,162,0.6);
+}
+
+/* SHOP ITEMS */
+p strong {
+  color: #ff5fa2;
+  font-size: 1.1rem;
+}
+
+/* FORMS */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #ffd1e8;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff5fa2;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(135deg, #ff5fa2, #ff9acb);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* PRODUCT GRID */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: linear-gradient(135deg, #fff0f8, #fffbe6);
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product-card h4 {
+  color: #ff5fa2;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 12px;
+}
